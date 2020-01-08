@@ -25,9 +25,20 @@
   <a href="#about">About</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+<p>How many grafts do I require</p>
 
-    <div id="quiz"></div>
-<button id="submit">Get Results</button>
-<div id="results"></div>
+<form>
+<input type="radio" name="browser" onclick="check(this.value)" value="you should need no grafts">Norwood 1<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Maybe this is just a mature hairline, do consider seeing a specialist as you may not be actually going bald">Norwood 2<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="Consider Finasteride and other treatments before you opt for a transplant you should get full coverage with around 2000 grafts">Norwood 3<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="You should consider a hair transplant if over 25, but also contemplate using other treatments for example laser therapy should reduce a lot of crown miniturisaton, you probably will need 3000-3500 grafts">Norwood 4<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="At this stage your hair loss pattern is well established you probably will require between 3500-5000 grafts for full coverage at this point they may consider taking some beard and/or chest hair">Norwood 5<br>
+<input type="radio" name="browser" onclick="check(this.value)" value="At this stage most surgeons will still operate but expectations must be tempered, you have 6000 on average in your donor area and this is considered enough for two of the three main parts of the head. For full coverage you may require a second transplant">Norwood 6<br>
+
+<input type="radio" name="browser" onclick="check(this.value)" value="At this point you will have lost 70% of you hair you may need up to 12,000 grafts for full coverage, there are surgeons who will come up with a plan. You will need to be realistic though. ">Norwood 7<br>
+<br>
+Your estimated treatment <input type="text" id="answer" size="200">
+</form>
+    
 </body>
 </html>
