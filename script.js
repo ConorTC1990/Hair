@@ -8,6 +8,9 @@ function myFunction() {
   }
 }
 
-function check(browser) {
-  document.getElementById("answer").value=browser;
+function check(estimate) {
+  document.getElementById("answer").value=estimate;
 }
+
+function imgWindow() {
+  window.open("image") }
