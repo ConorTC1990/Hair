@@ -1,8 +1,8 @@
-function sendemail(ContactemailJS) {
-    emailjs.send("gmail", "conor_s_advice_free", {
-        "from_name": ContactemailJS.name.value,
-        "from_email": ContactemailJS.emailaddress.value,
-        "project_request": ContactemailJS.projectsummary.value
+function sendemail(contact) {
+    emailjs.send("gmail", "conor", {
+        "from_name": contact.name.value,
+        "from_email": contact.emailaddress.value,
+        "free_guide": contact.free_guide.value
     })
     .then(
         function(response) {
